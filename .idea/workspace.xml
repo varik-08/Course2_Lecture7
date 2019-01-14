@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b6adeb-5f21-4e23-a50c-6a43e68986da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/MoneyFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MoneyFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -19,7 +15,29 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Services/MoneyFormatter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+              <folding>
+                <element signature="e#30#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -217,12 +235,24 @@
             <path>
               <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Unit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,17 +285,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.MoneyFormatterTest.testHomeworkFormatterInt">
-    <configuration type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.MoneyFormatterTest.testConvertFloat">
+    <configuration name="MoneyFormatterTest.testConvertFloat" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testConvertFloat" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MoneyFormatterTest.testConvertInt" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testConvertInt" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="MoneyFormatterTest.testFormatted123456789" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testFormatted123456789" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MoneyFormatterTest.testFormattedFromMillionNumber" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testFormattedFromMillionNumber" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="MoneyFormatterTest.testHomeworkFormatter" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -282,10 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.MoneyFormatterTest.testConvertFloat" />
+        <item itemvalue="PHPUnit.MoneyFormatterTest.testConvertInt" />
         <item itemvalue="PHPUnit.MoneyFormatterTest.testHomeworkFormatterInt" />
         <item itemvalue="PHPUnit.MoneyFormatterTest.testHomeworkFormatter" />
         <item itemvalue="PHPUnit.MoneyFormatterTest.testFormatted123456789" />
-        <item itemvalue="PHPUnit.MoneyFormatterTest.testFormattedFromMillionNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -311,20 +342,11 @@
       <workItem from="1545654217283" duration="3561000" />
       <workItem from="1545671842716" duration="45000" />
       <workItem from="1545671889661" duration="1747000" />
-      <workItem from="1547389217962" duration="9232000" />
+      <workItem from="1547389217962" duration="9966000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="phpunit_xml - 2018.12.24 at 19h 45m 32s.xml">
-      <configuration name="phpunit.xml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="phpunit_xml - 2018.12.24 at 19h 46m 00s.xml">
-      <configuration name="phpunit.xml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="phpunit_xml - 2018.12.24 at 19h 47m 02s.xml">
-      <configuration name="phpunit.xml" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="MoneyFormatterTest_testHomeworkFormatter - 2019.01.14 at 12h 27m 10s.xml">
       <configuration name="MoneyFormatterTest.testHomeworkFormatter" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -346,12 +368,22 @@
     <history-entry file="MoneyFormatterTest_testHomeworkFormatterInt - 2019.01.14 at 12h 40m 01s.xml">
       <configuration name="MoneyFormatterTest.testHomeworkFormatterInt" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="MoneyFormatterTest_testConvertInt - 2019.01.15 at 02h 02m 01s.xml">
+      <configuration name="MoneyFormatterTest.testConvertInt" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MoneyFormatterTest_testConvertFloat - 2019.01.15 at 02h 02m 40s.xml">
+      <configuration name="MoneyFormatterTest.testConvertFloat" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MoneyFormatterTest_testConvertFloat - 2019.01.15 at 02h 04m 01s.xml">
+      <configuration name="MoneyFormatterTest.testConvertFloat" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54160000" />
+    <option name="totallyTimeSpent" value="54894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30362538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,7 +400,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295129" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -647,23 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
-          <folding>
-            <element signature="e#30#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/MoneyFormatter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -678,6 +693,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/MoneyFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
