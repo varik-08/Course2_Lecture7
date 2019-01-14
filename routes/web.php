@@ -25,3 +25,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('emails', 'JobsController@sendEmail');
 
 Route::get('test_cache', 'TestsController@index');
+
+Route::get('/homework/{value}', 'ProductController@homework');

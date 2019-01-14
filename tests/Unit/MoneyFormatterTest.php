@@ -66,4 +66,22 @@ class MoneyFormatterTest extends TestCase
         $formatter->eraseString();
         $this->assertEquals($formatter, $formatter2);
     }
+
+    public function testHomeworkFormatterFloat()
+    {
+        $value = '1000000.54';
+        $valueExpected = '1 000 000,54';
+        $formatter = new MoneyFormatter($value);
+        $formatter->convert();
+        $this->assertEquals($valueExpected, $formatter->homeworkFormatted());
+    }
+
+    public function testHomeworkFormatterInt()
+    {
+        $value = '1000000';
+        $valueExpected = '1 000 000,00';
+        $formatter = new MoneyFormatter($value);
+        $formatter->convert();
+        $this->assertEquals($valueExpected, $formatter->homeworkFormatted());
+    }
 }

@@ -13,4 +13,10 @@ class ProductController extends Controller
         $formatter = new MoneyFormatter($value);
         dump($formatter->formatted());
     }
+
+    public function homework($value)
+    {
+        $formatter = new MoneyFormatter($value);
+        $formatter->homeworkFormatted();
+    }
 }
