@@ -16,15 +16,21 @@ class MoneyFormatter
         $this->value = str_replace([' ', ',', '.', '_', '-'], '', $this->value);
     }
 
-    public function convert()
+    public function roundValue($number)
     {
-        $this->value = str_replace([' ', '_', '-'], '', $this->value);
         $this->value = str_replace(',', '.', $this->value);
-        $this->value = round((float)$this->value, 2);
+        $this->value = round((float)$this->value, $number);
         $this->value = str_replace('.', ',', $this->value);
         if (!stristr($this->value, ',')) {
             $this->value = $this->value . ',00';
         }
+    }
+
+
+    public function convertToFloatWithComma()
+    {
+        $this->value = str_replace([' ', '_', '-'], '', $this->value);
+        $this->roundValue(2);
     }
 
     public function formatted()
@@ -42,9 +48,9 @@ class MoneyFormatter
         return $output;
     }
 
-    public function homeworkFormatted()
+    public function formattedStringToFloat()
     {
-        $this->convert();
+        $this->convertToFloatWithComma();
         $string = strval($this->value);
         $output = '';
         if ($pos = strripos($string, ',')) {

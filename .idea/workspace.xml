@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b6adeb-5f21-4e23-a50c-6a43e68986da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/MoneyFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MoneyFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -14,13 +17,44 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1915957251">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="1" />
+          <entry key="example" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key=".env file" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="118" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="118" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Services/MoneyFormatter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+            <state relative-caret-position="214">
+              <caret line="50" column="42" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -28,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+            <state relative-caret-position="1921">
+              <caret line="113" column="78" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
@@ -101,10 +135,23 @@
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
@@ -195,7 +242,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="705" />
@@ -211,48 +258,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
+              <item name="Course2_Lecture7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course2_Lecture7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,6 +277,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\volkov\Desktop\Training\Projects\Course2_Lecture7" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -285,7 +293,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.MoneyFormatterTest.testConvertFloat">
+  <component name="RunManager" selected="PHPUnit.MoneyFormatterTest">
+    <configuration name="MoneyFormatterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="MoneyFormatterTest.testConvertFloat" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testConvertFloat" scope="Method" />
       <method v="2" />
@@ -294,12 +306,8 @@
       <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testConvertInt" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="MoneyFormatterTest.testFormatted123456789" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testFormatted123456789" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MoneyFormatterTest.testHomeworkFormatter" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testHomeworkFormatter" scope="Method" />
+    <configuration name="MoneyFormatterTest.testFormattedStringSpaced" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\MoneyFormatterTest" file="$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php" method="testFormattedStringSpaced" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="MoneyFormatterTest.testHomeworkFormatterInt" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -310,13 +318,21 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.MoneyFormatterTest.testConvertFloat" />
+      <item itemvalue="PHPUnit.MoneyFormatterTest.testConvertInt" />
+      <item itemvalue="PHPUnit.MoneyFormatterTest.testHomeworkFormatterInt" />
+      <item itemvalue="PHPUnit.MoneyFormatterTest.testFormattedStringSpaced" />
+      <item itemvalue="PHPUnit.MoneyFormatterTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.MoneyFormatterTest" />
+        <item itemvalue="PHPUnit.MoneyFormatterTest.testFormattedStringSpaced" />
         <item itemvalue="PHPUnit.MoneyFormatterTest.testConvertFloat" />
         <item itemvalue="PHPUnit.MoneyFormatterTest.testConvertInt" />
         <item itemvalue="PHPUnit.MoneyFormatterTest.testHomeworkFormatterInt" />
-        <item itemvalue="PHPUnit.MoneyFormatterTest.testHomeworkFormatter" />
-        <item itemvalue="PHPUnit.MoneyFormatterTest.testFormatted123456789" />
       </list>
     </recent_temporary>
   </component>
@@ -343,16 +359,11 @@
       <workItem from="1545671842716" duration="45000" />
       <workItem from="1545671889661" duration="1747000" />
       <workItem from="1547389217962" duration="9966000" />
+      <workItem from="1548322217355" duration="1292000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyFormatterTest_testHomeworkFormatter - 2019.01.14 at 12h 27m 10s.xml">
-      <configuration name="MoneyFormatterTest.testHomeworkFormatter" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="MoneyFormatterTest_testHomeworkFormatter - 2019.01.14 at 12h 37m 18s.xml">
-      <configuration name="MoneyFormatterTest.testHomeworkFormatter" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="MoneyFormatterTest_testHomeworkFormatter - 2019.01.14 at 12h 38m 55s.xml">
       <configuration name="MoneyFormatterTest.testHomeworkFormatter" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -377,28 +388,43 @@
     <history-entry file="MoneyFormatterTest_testConvertFloat - 2019.01.15 at 02h 04m 01s.xml">
       <configuration name="MoneyFormatterTest.testConvertFloat" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="MoneyFormatterTest_testFormattedStringSpaced - 2019.01.24 at 14h 39m 05s.xml">
+      <configuration name="MoneyFormatterTest.testFormattedStringSpaced" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="MoneyFormatterTest - 2019.01.24 at 14h 51m 50s.xml">
+      <configuration name="MoneyFormatterTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54894000" />
+    <option name="totallyTimeSpent" value="56186000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30362538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30784062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46561605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46495956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295129" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -432,8 +458,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php" />
     <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-486" />
@@ -443,9 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#28#57#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,9 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="869">
           <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#28#57#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,9 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#28#57#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -490,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#30#66#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="21" column="10" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#33#70#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,9 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="e#31#74#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="e#40#76#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,20 +666,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,17 +687,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Services/MoneyFormatter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        <state relative-caret-position="214">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/MoneyFormatterTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+        <state relative-caret-position="1921">
+          <caret line="113" column="78" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
           <folding>
             <element signature="e#30#49#0#PHP" expanded="true" />
           </folding>

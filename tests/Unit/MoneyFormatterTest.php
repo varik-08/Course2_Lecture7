@@ -73,7 +73,7 @@ class MoneyFormatterTest extends TestCase
         $valueExpected = '1000000,00';
         $formatter = new MoneyFormatter($value);
         $formatter2 = new MoneyFormatter($valueExpected);
-        $formatter->convert();
+        $formatter->convertToFloatWithComma();
         $this->assertEquals($formatter, $formatter2);
     }
 
@@ -83,7 +83,7 @@ class MoneyFormatterTest extends TestCase
         $valueExpected = '1000000,57';
         $formatter = new MoneyFormatter($value);
         $formatter2 = new MoneyFormatter($valueExpected);
-        $formatter->convert();
+        $formatter->convertToFloatWithComma();
         $this->assertEquals($formatter, $formatter2);
     }
 
@@ -92,8 +92,8 @@ class MoneyFormatterTest extends TestCase
         $value = '1000000.54';
         $valueExpected = '1 000 000,54';
         $formatter = new MoneyFormatter($value);
-        $formatter->convert();
-        $this->assertEquals($valueExpected, $formatter->homeworkFormatted());
+        $formatter->convertToFloatWithComma();
+        $this->assertEquals($valueExpected, $formatter->formattedStringToFloat());
     }
 
     public function testHomeworkFormatterFloatMoreTwoDigit()
@@ -101,8 +101,8 @@ class MoneyFormatterTest extends TestCase
         $value = '1000000.5456565656565656565';
         $valueExpected = '1 000 000,55';
         $formatter = new MoneyFormatter($value);
-        $formatter->convert();
-        $this->assertEquals($valueExpected, $formatter->homeworkFormatted());
+        $formatter->convertToFloatWithComma();
+        $this->assertEquals($valueExpected, $formatter->formattedStringToFloat());
     }
 
     public function testHomeworkFormatterInt()
@@ -110,7 +110,7 @@ class MoneyFormatterTest extends TestCase
         $value = '1000000';
         $valueExpected = '1 000 000,00';
         $formatter = new MoneyFormatter($value);
-        $formatter->convert();
-        $this->assertEquals($valueExpected, $formatter->homeworkFormatted());
+        $formatter->convertToFloatWithComma();
+        $this->assertEquals($valueExpected, $formatter->formattedStringToFloat());
     }
 }
