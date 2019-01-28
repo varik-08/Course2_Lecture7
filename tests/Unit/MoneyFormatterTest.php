@@ -67,7 +67,7 @@ class MoneyFormatterTest extends TestCase
         $this->assertEquals($formatter, $formatter2);
     }
 
-    public function testConvertInt()
+    public function testConvertToFloatWithCommaOfInt()
     {
         $value = '1000000';
         $valueExpected = '1000000,00';
@@ -77,7 +77,7 @@ class MoneyFormatterTest extends TestCase
         $this->assertEquals($formatter, $formatter2);
     }
 
-    public function testConvertFloat()
+    public function testConvertToFloatWithCommaOfFloat()
     {
         $value = '1000000.567';
         $valueExpected = '1000000,57';
@@ -87,7 +87,7 @@ class MoneyFormatterTest extends TestCase
         $this->assertEquals($formatter, $formatter2);
     }
 
-    public function testHomeworkFormatterFloat()
+    public function testFormattedStringToFloatOfFloat()
     {
         $value = '1000000.54';
         $valueExpected = '1 000 000,54';
@@ -96,7 +96,7 @@ class MoneyFormatterTest extends TestCase
         $this->assertEquals($valueExpected, $formatter->formattedStringToFloat());
     }
 
-    public function testHomeworkFormatterFloatMoreTwoDigit()
+    public function testFormattedStringToFloatOfFloatWithMoreTwoDigitAfterComma()
     {
         $value = '1000000.5456565656565656565';
         $valueExpected = '1 000 000,55';
@@ -105,7 +105,7 @@ class MoneyFormatterTest extends TestCase
         $this->assertEquals($valueExpected, $formatter->formattedStringToFloat());
     }
 
-    public function testHomeworkFormatterInt()
+    public function testFormattedStringToFloatOfInt()
     {
         $value = '1000000';
         $valueExpected = '1 000 000,00';
